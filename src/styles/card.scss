@@ -20,24 +20,21 @@
     margin-top: 32px;
   }
   &__title {
-    font-family: Poppins, sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    letter-spacing: 0%;
     color: $black;
-    padding-top: 40px;
+    margin-top: 40px;
   }
   &__code {
     font-family: inherit;
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
-    letter-spacing: 0%;
     color: $gray;
     margin-top: 4px;
     align-self: flex-start;
-    text-align: center;
   }
   &__review {
     margin-top: 18px;
@@ -51,7 +48,6 @@
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
-    letter-spacing: 0%;
     color: $black;
   }
   &__price {
@@ -66,7 +62,6 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    letter-spacing: 0%;
     color: $gray;
   }
   &__price-value {
@@ -74,7 +69,6 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
-    letter-spacing: 0%;
     color: $black;
   }
   &__button {
@@ -92,7 +86,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0%;
     color: $white;
     text-transform: uppercase;
     margin-top: 16px;
